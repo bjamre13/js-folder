@@ -1,5 +1,5 @@
 
-//check all srting methods using inspect in browser
+//check all srting methods using inspect in browser by declaring variables using new keyword
 //and mdn for refeneces
 
 let name="hello world"
