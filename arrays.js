@@ -8,7 +8,7 @@ const heros=["marvel","dc"]
 const arr1 =new Array(1,2,23,445);
 console.log(arr1);
 
-array methods
+// array methods
 arr1.push(-45)
 console.log(arr1);
 
@@ -51,7 +51,7 @@ console.log(newAll);
 const allHeros=[...mar_heros,...dc_heros] //spread operator
 console.log(allHeros);
 
-const anArray=[1,3,[53,09,987],[764],[7,4,1]]
+const anArray=[1,3,[53,90,987],[764],[7,4,1]]
 const realArray=anArray.flat(Infinity)
 console.log(realArray);
 
