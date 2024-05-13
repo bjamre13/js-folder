@@ -66,4 +66,32 @@ obj3={...obj1,...obj2}// spread operator
 
 // console.log(Object.keys(regUser));  // in array form can be access as array
 // console.log(Object.values(regUser));
-console.log(Object.entries(regUser));
+// console.log(Object.entries(regUser));
+
+//destructuring of objects
+
+const course={
+    cname:"js",
+    price:999,
+    instructor:"hitesh"
+}
+//printing course.instructor and soo on....
+
+//other method
+
+const {/*price*/ instructor:intstr}=course
+console.log(intstr);
+
+// apis will be given in object form and array
+/*jason  objects without name
+{
+    keys:values
+    ....
+} */
+
+//if api is given in array form instead of objects then try using loop and enjoy as below
+/*[
+    {},
+    {}....
+] */
+
